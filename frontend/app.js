@@ -54,7 +54,7 @@ function renderProductos(productos) {
       <td>$${Number(p.precio).toFixed(2)}</td>
       <td>${p.stock}</td>
       <td>
-        <button data-id="${p.id}" class="btn-editar">Editar</button>
+        <button data-id="${p.id}" class="btn-editar">Fabrizio</button>
         <button data-id="${p.id}" class="btn-eliminar danger">Eliminar</button>
       </td>
     `;
